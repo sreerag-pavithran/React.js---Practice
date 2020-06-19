@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.tweet{
+  border: 2px solid dodgerblue;
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.like {
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(126, 186, 247);
+  border: none;
+}
