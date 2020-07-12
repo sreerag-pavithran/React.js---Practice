@@ -1,0 +1,17 @@
+.searchbar {
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: #7a7474;
+    font-weight: bold;
+    outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+.head {
+    font-family: 'Lobster Two', cursive;
+    color: crimson;
+    font-size: 50px;
+}
