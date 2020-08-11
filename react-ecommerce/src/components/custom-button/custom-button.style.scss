@@ -20,4 +20,36 @@
       border: 1px solid black;
     }
   }
-  
+
+  .google {
+    margin-left: 20px;
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+      background-color: white;
+      color: black;
+      border: 1px solid dodgerblue;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .google{
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }

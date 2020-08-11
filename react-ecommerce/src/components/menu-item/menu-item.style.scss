@@ -68,3 +68,7 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .menu-item { width: 100px;}
+}
