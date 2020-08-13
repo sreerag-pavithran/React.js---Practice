@@ -6,11 +6,16 @@ import Counter from './components/classCounter';
 
 
 function App() {
+  const [name, setName] = React.useState('Sreerag')
+  const resetName = () =>{
+    setName('');
+  }
   return (
     
     
     <div>
-      <Counter />
+      <h1>Welcome {name}</h1>
+      <button onClick={resetName}>Reset</button>
     </div>
       
     
